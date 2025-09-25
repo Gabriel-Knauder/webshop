@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-<<<<<<< HEAD
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.13",
@@ -17,12 +16,5 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13"
-=======
-    "vite": "^7.1.7"
-  },
-  "dependencies": {
-    "@tailwindcss/vite": "^4.1.13",
-    "tailwindcss": "^4.1.13"
->>>>>>> 05510e1e12fa0641b48475bb6640409be8b831f7
   }
 }
