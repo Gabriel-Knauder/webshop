@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My shop</title>
+    <link href="/src/style.css" rel="stylesheet" />
+  </head>
+  <body
+    class="bg-gradient-to-bl from-gray-900 via-purple-900 to-black min-h-screen text-white"
+  >
+    <header
+      class="fixed top-0 left-0 w-full bg-purple-900/90 backdrop-blur-lg p-6 shadow-lg z-50 animate-fadeInUp"
+    >
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <h1
+          class="text-3xl font-extrabold tracking-wide text-white drop-shadow-lg animate-float"
+        >
+          My Shop
+        </h1>
+        <nav>
+          <ul class="flex space-x-8 text-lg font-semibold">
+            <li>
+              <a
+                href="#home"
+                class="hover:underline hover:text-purple-300 transition animate-fadeInUp animate-delay-200"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#services"
+                class="hover:underline hover:text-purple-300 transition animate-fadeInUp animate-delay-400"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="#portfolio"
+                class="hover:underline hover:text-purple-300 transition animate-fadeInUp animate-delay-600"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="hover:underline hover:text-purple-300 transition animate-fadeInUp animate-delay-800"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="pt-28 max-w-7xl mx-auto px-6">
+      <section
+        id="home"
+        class="relative rounded-3xl w-full bg-cover bg-center p-10 mb-20 mt-10"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1601388152430-4ad0f14c0788?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+          min-height: 500px;
+        "
+      >
+        <div class="absolute inset-0 bg-black bg-opacity-50 rounded-3xl"></div>
+
+        <div
+          class="relative glass p-12 rounded-3xl shadow-2xl max-w-6xl mx-auto flex flex-col md:flex-row gap-12 items-center"
+        >
+          <div
+            class="flex-1 text-white font-semibold tracking-wide animate-fadeInLeft"
+          >
+            <h2 class="text-5xl font-bold mb-6 gradient-bg bg-clip-text">
+              Need a Website?
+            </h2>
+            <p class="text-gray-300 mb-4 leading-relaxed text-xl">
+              We craft stunning, professional websites for both private and
+              commercial use.
+            </p>
+            <p class="text-gray-300 mb-4 leading-relaxed">
+              Our expert team delivers responsive, modern designs that convert
+              visitors into customers.
+            </p>
+            <p class="text-gray-300 mb-8 leading-relaxed">
+              Competitive pricing, fast delivery, and ongoing support included.
+            </p>
+            <div class="flex gap-4">
+              <a
+                href="#services"
+                class="inline-block bg-purple-600 hover:bg-purple-700 transition rounded-lg px-8 py-4 font-semibold shadow-lg hover:shadow-purple-400 transform hover:scale-105 text-center hover-lift"
+              >
+                View Services
+              </a>
+              <a
+                href="#portfolio"
+                class="inline-block bg-transparent border-2 border-purple-400 hover:bg-purple-400 transition rounded-lg px-8 py-4 font-semibold text-center hover-lift"
+              >
+                See Portfolio
+              </a>
+            </div>
+          </div>
+          <div class="flex-1 animate-fadeInRight">
+            <img
+              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Website Illustration"
+              class="w-full h-auto rounded-2xl shadow-lg hover-lift"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="mb-20 animate-fadeInUp">
+        <div class="text-center mb-16">
+          <h2
+            class="text-4xl font-bold mb-4 gradient-bg bg-clip-text text-gray-300"
+          >
+            Our Services
+          </h2>
+          <p class="text-gray-300 text-xl max-w-3xl mx-auto">
+            We offer comprehensive web solutions tailored to your specific needs
+            and budget
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="glass rounded-2xl p-8 hover-lift animate-fadeInLeft">
+            <div class="flex items-center mb-6">
+              <div
+                class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mr-4"
+              >
+                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-2xl font-bold">Basic Website</h3>
+                <p class="text-purple-300">Perfect for personal use</p>
+              </div>
+            </div>
+            <img
+              src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=1169&auto=format&fit=crop"
+              alt="Basic Website Design"
+              class="w-full h-48 object-cover rounded-lg mb-6"
+            />
+            <ul class="space-y-3 mb-6 text-gray-300">
+              <li class="flex items-center">
+                <span class="text-green-400 mr-2">✓</span> Included screendesign
+              </li>
+              <li class="flex items-center">
+                <span class="text-green-400 mr-2">✓</span> Up to 3 pages
+              </li>
+              <li class="flex items-center">
+                <span class="text-green-400 mr-2">✓</span> Mobile responsive
+                design
+              </li>
+              <li class="flex items-center">
+                <span class="text-green-400 mr-2">✓</span> Basic SEO
+                optimization
+              </li>
+              <li class="flex items-center">
+                <span class="text-green-400 mr-2">✓</span> 1 month after-sale
+                support
+              </li>
+            </ul>
+            <div class="text-center">
+              <div class="text-3xl font-bold mb-2">€299</div>
+              <a
+                href="#contact"
+                class="w-full bg-purple-600 hover:bg-purple-700 transition rounded-lg py-3 font-semibold hover-lift inline-block text-center"
+              >
+                Choose Basic
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="glass rounded-2xl p-8 hover-lift animate-fadeInRight border-2 border-purple-400"
+          >
+            <div class="flex items-center mb-6">
+              <div
+                class="w-16 h-16 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center mr-4"
+              >
+                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.031 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-2xl font-bold">Premium Business</h3>
+                <p class="text-purple-300">For commercial success</p>
+              </div>
+            </div>
+            <img
+              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1115&auto=format&fit=crop"
+              alt="Premium Website Design"
+              class="w-full h-48 object-cover rounded-lg mb-6"
+            />
+            <ul class="space-y-3 mb-6 text-gray-300">
+              <li class="flex items-center">
+                <span class="text-green-400 mr-2">✓</span> Included screendesign
+              </li>
+              <li class="flex items-center">
+                <span class="text-green-400 mr-2">✓</span> Up to 10 Pages
+              </li>
+              <li class="flex items-center">
+                <span class="text-green-400 mr-2">✓</span> Advanced animations
+              </li>
+              <li class="flex items-center">
+                <span class="text-green-400 mr-2">✓</span> 6 months after-sale
+                support
+              </li>
+              <li class="flex items-center">
+                <span class="text-green-400 mr-2">✓</span> Performance
+                optimization
+              </li>
+            </ul>
+            <div class="text-center">
+              <div class="text-3xl font-bold mb-2">€799</div>
+              <a
+                href="#contact"
+                class="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 transition rounded-lg py-3 font-semibold hover-lift inline-block text-center"
+              >
+                Choose Premium
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="mb-20 animate-fadeInUp">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold mb-4 gradient-bg bg-clip-text">
+            Our Work
+          </h2>
+          <p class="text-gray-300 text-xl max-w-3xl mx-auto">
+            Check out some of our recent projects and see the quality we deliver
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div
+            class="glass rounded-xl overflow-hidden hover-lift animate-fadeInLeft"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1170&auto=format&fit=crop"
+              alt="Restaurant Website"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Restaurant Deluxe</h3>
+              <p class="text-gray-300 mb-4">
+                Modern restaurant website with online ordering system
+              </p>
+              <span
+                class="inline-block bg-purple-600 text-sm px-3 py-1 rounded-full"
+                >Restaurant</span
+              >
+            </div>
+          </div>
+
+          <div
+            class="glass rounded-xl overflow-hidden hover-lift animate-fadeInUp animate-delay-200"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1170&auto=format&fit=crop"
+              alt="Tech Startup"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Tech Innovations</h3>
+              <p class="text-gray-300 mb-4">
+                Clean startup website with investor portal
+              </p>
+              <span
+                class="inline-block bg-blue-600 text-sm px-3 py-1 rounded-full"
+                >Technology</span
+              >
+            </div>
+          </div>
+
+          <div
+            class="glass rounded-xl overflow-hidden hover-lift animate-fadeInRight animate-delay-400"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1170&auto=format&fit=crop"
+              alt="Fashion Store"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Fashion Boutique</h3>
+              <p class="text-gray-300 mb-4">
+                E-commerce platform with inventory management
+              </p>
+              <span
+                class="inline-block bg-pink-600 text-sm px-3 py-1 rounded-full"
+                >E-commerce</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-20 glass rounded-3xl p-12 animate-fadeInUp">
+        <div class="grid md:grid-cols-4 gap-8 text-center">
+          <div class="animate-scaleIn">
+            <div
+              class="text-4xl font-bold gradient-bg bg-clip-text mb-2 text-white"
+            >
+              150+
+            </div>
+            <div class="text-gray-300">Websites Created</div>
+          </div>
+          <div class="animate-scaleIn animate-delay-200">
+            <div
+              class="text-4xl font-bold gradient-bg bg-clip-text mb-2 text-white"
+            >
+              98%
+            </div>
+            <div class="text-gray-300">Client Satisfaction</div>
+          </div>
+          <div class="animate-scaleIn animate-delay-400">
+            <div
+              class="text-4xl font-bold gradient-bg bg-clip-text mb-2 text-white"
+            >
+              24/7
+            </div>
+            <div class="text-gray-300">Support Available</div>
+          </div>
+          <div class="animate-scaleIn animate-delay-600">
+            <div
+              class="text-4xl font-bold gradient-bg bg-clip-text mb-2 text-white"
+            >
+              4.7⭐
+            </div>
+            <div class="text-gray-300">Average Rating</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-20 animate-fadeInUp">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold mb-4 gradient-bg bg-clip-text">
+            What Clients Say
+          </h2>
+          <p class="text-gray-300 text-xl max-w-3xl mx-auto">
+            Don't just take our word for it - hear from our satisfied customers
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="glass rounded-xl p-8 hover-lift animate-fadeInLeft">
+            <div class="flex items-center mb-4">
+              <img
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1170&auto=format&fit=crop"
+                alt="Client"
+                class="w-16 h-16 rounded-full object-cover mr-4"
+              />
+              <div>
+                <h3 class="font-bold">Marcus Weber</h3>
+                <p class="text-gray-300">Restaurant Owner</p>
+              </div>
+            </div>
+            <p class="text-gray-300 mb-4">
+              "Absolutely fantastic work! My restaurant's online presence has
+              never been better. Orders increased by 300% since launch."
+            </p>
+            <div class="text-yellow-400">⭐⭐⭐⭐⭐</div>
+          </div>
+
+          <div
+            class="glass rounded-xl p-8 hover-lift animate-fadeInRight animate-delay-200"
+          >
+            <div class="flex items-center mb-4">
+              <img
+                src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=761&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Client"
+                class="w-16 h-16 rounded-full object-cover mr-4"
+              />
+              <div>
+                <h3 class="font-bold">Sarah Schmidt</h3>
+                <p class="text-gray-300">Store Owner</p>
+              </div>
+            </div>
+            <p class="text-gray-300 mb-4">
+              "Professional, fast, and exactly what I needed. The e-commerce
+              features work perfectly and my customers love the design."
+            </p>
+            <div class="text-yellow-400">⭐⭐⭐⭐⭐</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="mb-20 animate-fadeInUp">
+        <div class="glass rounded-3xl p-12">
+          <div class="grid md:grid-cols-2 gap-12">
+            <div class="animate-fadeInLeft">
+              <h2 class="text-4xl font-bold mb-6 gradient-bg bg-clip-text">
+                Get In Touch
+              </h2>
+              <p class="text-gray-300 text-xl mb-8">
+                Ready to start your project? Let's discuss your needs and create
+                something amazing together.
+              </p>
+
+              <div class="space-y-4">
+                <div class="flex items-center">
+                  <div
+                    class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mr-4"
+                  >
+                    <svg
+                      class="w-6 h-6"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+                      />
+                      <path
+                        d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+                      />
+                    </svg>
+                  </div>
+                  <span class="text-gray-300">hello@myshop.com</span>
+                </div>
+
+                <div class="flex items-center">
+                  <div
+                    class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mr-4"
+                  >
+                    <svg
+                      class="w-6 h-6"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
+                      />
+                    </svg>
+                  </div>
+                  <span class="text-gray-300">+43 123 456 789</span>
+                </div>
+
+                <div class="flex items-center">
+                  <div
+                    class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mr-4"
+                  >
+                    <svg
+                      class="w-6 h-6"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <span class="text-gray-300">Vienna, Austria</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="animate-fadeInRight animate-delay-200">
+              <form class="space-y-6" action="/mail.php" method="POST">
+                <div>
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Your Name"
+                    required
+                    class="w-full bg-white/10 border border-purple-400/30 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-400"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Your Email"
+                    required
+                    class="w-full bg-white/10 border border-purple-400/30 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-400"
+                  />
+                </div>
+                <div>
+                  <select
+                    name="service"
+                    required
+                    class="w-full bg-white/10 border border-purple-400/30 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-400"
+                  >
+                    <option value="" disabled selected class="text-black">
+                      Select Service
+                    </option>
+                    <option value="basic" class="text-black">
+                      Basic Website
+                    </option>
+                    <option value="premium" class="text-black">
+                      Premium Business
+                    </option>
+                    <option value="custom" class="text-black">
+                      Custom Solution
+                    </option>
+                  </select>
+                </div>
+                <div>
+                  <textarea
+                    name="message"
+                    rows="4"
+                    placeholder="Tell us about your project"
+                    required
+                    class="w-full bg-white/10 border border-purple-400/30 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-400"
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 transition rounded-lg py-3 font-semibold hover-lift"
+                >
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="mt-20 max-w-4xl mx-auto p-8 glass rounded-xl shadow-lg text-gray-100 leading-relaxed animate-fadeInUp"
+      >
+        <h2
+          class="text-3xl font-bold mb-6 text-center gradient-bg bg-clip-text"
+        >
+          About Our Process
+        </h2>
+        <p class="mb-6">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae
+          facilis, aliquam non optio maiores ea quisquam, consectetur eum
+          pariatur quis veritatis perspiciatis mollitia blanditiis dignissimos
+          ut alias animi ratione. Quas quaerat eum sunt, numquam repellendus
+          possimus consectetur voluptate perferendis eius dolorem ullam libero
+          facilis quasi laboriosam esse quisquam vitae.
+        </p>
+        <p>
+          Quam, laboriosam eveniet sunt placeat vitae incidunt repudiandae
+          itaque! Dolore ducimus eos cum consequatur, quod accusamus voluptatem
+          quisquam officia ab unde repellendus! Animi perspiciatis in facere,
+          sed reprehenderit pariatur nemo quas illo dolorem quo et, tempora
+          voluptate! Odio rem hic quisquam ea modi voluptate laboriosam labore
+          perspiciatis omnis exercitationem!
+        </p>
+      </section>
+    </main>
+
+    <footer
+      class="mt-32 bg-black/50 backdrop-blur-lg border-t border-purple-400/20"
+    >
+      <div class="max-w-7xl mx-auto px-6 py-12">
+        <div class="grid md:grid-cols-4 gap-8">
+          <div>
+            <h3 class="text-2xl font-bold mb-4 animate-float">My Shop</h3>
+            <p class="text-gray-400">
+              Creating stunning websites that drive results for your business.
+            </p>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-4">Services</h4>
+            <ul class="space-y-2 text-gray-400">
+              <li>
+                <a href="#" class="hover:text-purple-300 transition"
+                  >Web Design</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-purple-300 transition"
+                  >E-commerce</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-purple-300 transition"
+                  >SEO Optimization</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-purple-300 transition"
+                  >Maintenance</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-4">Company</h4>
+            <ul class="space-y-2 text-gray-400">
+              <li>
+                <a href="#" class="hover:text-purple-300 transition"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-purple-300 transition"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-purple-300 transition">Careers</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-purple-300 transition">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-4">Follow Us</h4>
+            <div class="flex space-x-4">
+              <a
+                href="#"
+                class="w-10 h-10 bg-purple-600 rounded-full flex items-center justify-center hover:bg-purple-700 transition hover-lift"
+              >
+                <span class="font-bold">f</span>
+              </a>
+              <a
+                href="#"
+                class="w-10 h-10 bg-purple-600 rounded-full flex items-center justify-center hover:bg-purple-700 transition hover-lift"
+              >
+                <span class="font-bold">@</span>
+              </a>
+              <a
+                href="#"
+                class="w-10 h-10 bg-purple-600 rounded-full flex items-center justify-center hover:bg-purple-700 transition hover-lift"
+              >
+                <span class="font-bold">in</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="border-t border-purple-400/20 mt-8 pt-8 text-center text-gray-400"
+        >
+          <p>&copy; 2025 My Shop. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
