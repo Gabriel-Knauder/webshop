@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: Gabriel-Knauder/webshop  # Ersetze das mit deinem GitHub-Repo-Namen
-  branch: master                 # Dein Hauptbranch (master oder main)
+  branch: main                 # Dein Hauptbranch (master oder main)
 
 media_folder: "assets/images"    # Ordner im Repo, wo Bilder gespeichert werden
 public_folder: "/assets/images"  # URL-Pfad für die Bilder auf deiner Website
